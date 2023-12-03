@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Flash Message Styles */
+.flash {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Styles */
+#moodForm {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#moodsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#moodsList li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Group Chat Styles */
+#groupChatForm {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#chatMessages {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#chatMessages li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Crisis Response Styles */
+.crisis-message {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffcccb;
+    padding: 15px;
+    border: 1px solid #ff5555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+

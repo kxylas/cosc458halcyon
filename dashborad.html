@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+    <div id="moodForm">
+        <!-- Add form for logging mood -->
+        <label for="mood">Current Mood:</label>
+        <input type="text" id="mood" name="mood" required>
+        <button type="button" onclick="logMood()">Log Mood</button>
+    </div>
+    <div id="moodList">
+        <!-- Display logged moods here -->
+        <h2>Your Logged Moods:</h2>
+        <!-- Add dynamic content using JavaScript -->
+    </div>
+    <a href="logout">Logout</a>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+
+</html>
